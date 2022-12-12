@@ -1,5 +1,5 @@
 // Start of UML-model
-=== Pakke: «ApplicationSchema» FKB-Bane-5.0
+=== Pakke: «ApplicationSchema» FKB-Bane-5.0.1
 *Definisjon:* Datamodell for FKB-Bane.
 Spesifikasjonen omfatter jernbanens infrastruktur - i hovedsak banelegemet. 
 Elementer som naturlig inngår i jernbanens infrastruktur, men som beskrives i mer generell form i andre FKB-datasett, er ikke tatt med i denne produktspesifikasjonen. Dette gjelder for eksempel spesifikasjoner for Høydekurve, Bygning, Bygningsmessige anlegg, Veg og Ledning.
@@ -39,7 +39,7 @@ Elementer som naturlig inngår i jernbanens infrastruktur, men som beskrives i m
 |http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Bane/5.0
  
 |version
-|5.0
+|5.0.1
  
 |xmlns
 |app
@@ -119,6 +119,7 @@ course follwing the transition between different real world phenomena
 |<<medium,«CodeList» Medium>>
 |Profilparametre i tagged values: 
 |
+defaultCodeSpace: https://register.geonorge.no/sosi-kodelister/fkb/generell/5.0/medium + 
 SOSI_navn: MEDIUM + 
 |===
 [cols="20,80"]
@@ -201,6 +202,7 @@ image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Bane/5.0/figurer/
 |<<jernbanetype,«CodeList» Jernbanetype>>
 |Profilparametre i tagged values: 
 |
+defaultCodeSpace: https://register.geonorge.no/sosi-kodelister/fkb/bane/5.0/jernbanetype + 
 SOSI_navn: JERNBANETYPE + 
 |===
 [cols="20,80"]
@@ -218,6 +220,7 @@ SOSI_navn: JERNBANETYPE +
 |<<høydereferanse,«CodeList» Høydereferanse>>
 |Profilparametre i tagged values: 
 |
+defaultCodeSpace: https://register.geonorge.no/sosi-kodelister/fkb/generell/5.0/hoydereferanse + 
 SOSI_navn: HREF + 
 |===
 [cols="20,80"]
@@ -235,6 +238,7 @@ SOSI_navn: HREF +
 |<<medium,«CodeList» Medium>>
 |Profilparametre i tagged values: 
 |
+defaultCodeSpace: https://register.geonorge.no/sosi-kodelister/fkb/generell/5.0/medium + 
 SOSI_navn: MEDIUM + 
 |===
 [cols="20,80"]
