@@ -1,0 +1,16 @@
+# nonk8s
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: prodspek_fkb_bane
+  tags: [internal]
+  links:
+    - url: https://github.com/kartverket/prodspek_fkb_bane
+      title: prodspek_fkb_bane på GitHub
+spec:
+  type: ops
+  lifecycle: production
+  owner: matrikkel
+  system: matrikkel
+  dependsOn: []
+  providesApis: []
